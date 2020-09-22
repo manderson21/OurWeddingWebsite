@@ -1,0 +1,23 @@
+{
+  "name": "wedding",
+  "version": "1.0.0",
+  "description": "Fonts: <br>\r  American Type Writer (Adobe Fonts)",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack/webpack.config.js --mode=development"
+  },
+  "keywords": [],
+  "author": "Matthew Anderson",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^0.11.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.4"
+  }
+}
