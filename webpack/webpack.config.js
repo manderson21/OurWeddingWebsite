@@ -1,15 +1,15 @@
+const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const path = require('path')
-const fg = require('fast-glob')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
     entry: {
-        style: fg.sync('./src/styles/**/*.css')
+        common: './src/assets/common.blocks/index.js'
     },
     output: {
         path: path.join(__dirname, '../dist/'),
-        filename: '[name].bundle.js'
+        filename: '[name]/[name].bundle.js'
     },
     resolve: {
         extensions: ['.js']
@@ -30,8 +30,9 @@ module.exports = {
         ]
     },
     plugins: [
+        new CleanWebpackPlugin(),
         new MiniCssExtractPlugin({
-            filename: 'styles/[name].bundle.css'
+            filename: '[name]/[name].bundle.css'
         }),
         new HtmlWebpackPlugin({
             hash: true,
