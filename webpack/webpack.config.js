@@ -38,7 +38,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             hash: true,
             template: "./src/index.html",
-            chunks: ['common'],
+            chunks: ['common', 'index'],
             filename: 'index.html'
         }),
         new HtmlWebpackPlugin({
