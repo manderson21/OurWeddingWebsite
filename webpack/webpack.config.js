@@ -5,7 +5,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
     entry: {
-        common: './src/assets/common.blocks/index.js'
+        common: './src/assets/common.blocks/index.js',
+        index: './src/assets/index.blocks/index.js'
     },
     output: {
         path: path.join(__dirname, '../dist/'),
