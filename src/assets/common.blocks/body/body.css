@@ -10,7 +10,7 @@
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: min-content;
+    grid-auto-rows: min-content;
     column-gap: 5px;
 }
 
