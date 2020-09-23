@@ -37,7 +37,32 @@ module.exports = {
         new HtmlWebpackPlugin({
             hash: true,
             template: "./src/index.html",
+            chunks: ['common'],
             filename: 'index.html'
-        })
+        }),
+        new HtmlWebpackPlugin({
+            hash: true,
+            template: "./src/ourStory.html",
+            chunks: ['common'],
+            filename: "ourStory.html"
+        }),
+        new HtmlWebpackPlugin({
+            hash: true,
+            template: "./src/weddingParty.html",
+            chunks: ['common'],
+            filename: "weddingParty.html"
+        }),
+        new HtmlWebpackPlugin({
+            hash: true,
+            template: "./src/registry.html",
+            chunks: ['common'],
+            filename: "registry.html"
+        }),
+        new HtmlWebpackPlugin({
+            hash: true,
+            template: "./src/rsvp.html",
+            chunks: ['common'],
+            filename: "rsvp.html"
+        }),
     ]
 }
