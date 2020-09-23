@@ -1,0 +1,22 @@
+.intro__text {
+    text-align: center;
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+@media only screen and (min-width: 319px) {
+    .intro__text {
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .intro__text {
+        font-size: 3.3vw;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .intro__text {
+        font-size: 2.3rem;
+    }
+}
