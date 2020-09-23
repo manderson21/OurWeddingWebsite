@@ -1,8 +1,12 @@
 .body {
     min-width: min-content;
     max-width: 1100px;
-    margin: auto;
-    padding: 0 1rem 0 1rem;
+    height: 100%;
+    margin: 20px auto 0 auto;
+    padding: 0 10px 0 10px;
+
+    background-color: #fff;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
