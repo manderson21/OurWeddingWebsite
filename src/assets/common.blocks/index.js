@@ -10,4 +10,5 @@ require('./header/nav/nav__text.css')
 require('./header/nav/nav_dropdown.css')
 require('./header/nav/nav_hover.css')
 
-require('./modifiers/nav_center.css')
+require('./modifiers/_center.css')
+require('./modifiers/_noWrap.css')
