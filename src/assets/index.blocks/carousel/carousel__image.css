@@ -1,0 +1,4 @@
+.carousel__img {
+    width: calc(100% - 1px);
+    height: auto;
+}

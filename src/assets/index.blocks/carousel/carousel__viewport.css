@@ -1,0 +1,16 @@
+.carousel__viewport {
+    height: 0;
+    padding-top: 100%;
+    position: relative;
+
+    width: 30vw;
+
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel__viewport::-webkit-scrollbar {
+    display: none;
+}
