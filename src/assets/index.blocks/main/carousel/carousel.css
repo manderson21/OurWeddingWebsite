@@ -1,0 +1,7 @@
+.carousel {
+    position: relative;
+
+    height: 0;
+    width: 30vw;
+    padding-top: 100%;
+}
