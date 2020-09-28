@@ -6,13 +6,12 @@ require('./intro/intro__text.css')
 
 require('./asideLeft/asideLeft.css')
 
-
-require('./carousel/carousel.css')
-require('./carousel/carousel__viewport.css')
-require('./carousel/carousel__slide__container.css')
-require('./carousel/carousel__slide.css')
-require('./carousel/carousel__image.css')
-require('./carousel/carousel__button.css')
+require('./main/main.css')
+require('./main/carousel/carousel.css')
+require('./main/carousel/carousel__viewport.css')
+require('./main/carousel/carousel__slide.css')
+require('./main/carousel/carousel__image.css')
+require('./main/carousel/carousel__button.css')
 
 
 require('./asideRight/asideRight.css')
