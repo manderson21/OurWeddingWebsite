@@ -64,30 +64,29 @@
     </aside>
     
     <section class="main">
-      <article id="carousel" class="carousel">
-        <div class="carousel__viewport">
-            <div id="carousel__slide1" class="carousel__slide" tabindex="0">
-              <img class="carousel__img" src="https://via.placeholder.com/3000/0000FF/fff" alt="Placeholder">
-              <a href="#carousel__slide4" class="carousel__button__prev"></a>
-              <a href="#carousel__slide2" class="carousel__button__next"></a>
-            </div>
-            <div id="carousel__slide2" class=" carousel__slide" tabindex="0">
-              <img class="carousel__img" src="https://via.placeholder.com/3000/FF0000/fff" alt="Placeholder">
-              <a href="#carousel__slide1" class="carousel__button__prev"></a>
-              <a href="#carousel__slide3" class="carousel__button__next"></a>
-            </div>
-            <div id="carousel__slide3" class="carousel__slide3 carousel__slide" tabindex="0">
-              <img class="carousel__img" src="https://via.placeholder.com/3000/00FF00/fff" alt="Placeholder">
-              <a href="#carousel__slide2" class="carousel__button__prev"></a>
-              <a href="#carousel__slide4" class="carousel__button__next"></a>
-            </div>
-            <div id="carousel__slide4" class="carousel__slide4 carousel__slide" tabindex="0">
-              <img class="carousel__img" src="https://via.placeholder.com/3000/ffff00/fff" alt="Placeholder">
-              <a href="#carousel__slide3" class="carousel__button__prev"></a>
-              <a href="#carousel__slide1" class="carousel__button__next"></a>
-          </div>
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide"><img class="glide__image glide__image__1" src="img/IMG-0001.jpg" alt=""></li>
+            <li class="glide__slide"><img class="glide__image glide__image__2" src="img/IMG-0002.jpg" alt=""></li>
+            <li class="glide__slide"><img class="glide__image glide__image__3" src="img/IMG-0006.jpg" alt=""></li>
+            <li class="glide__slide"><img class="glide__image glide__image__4" src="img/IMG-0007.jpg" alt=""></li>
+            <li class="glide__slide"><img class="glide__image glide__image__5" src="img/IMG-0008.jpg" alt=""></li>
+          </ul>
         </div>
-      </article>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+          <button class="glide__bullet" data-glide-dir="=2"></button>
+          <button class="glide__bullet" data-glide-dir="=3"></button>
+          <button class="glide__bullet" data-glide-dir="=4"></button>
+        </div>
+      </div>
+      
     </section>
     
     <aside class="asideRight">
