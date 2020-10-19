@@ -1,0 +1,17 @@
+.glide__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.glide__image__2 {
+    object-position: center 45%;
+}
+
+.glide__image__4 {
+    object-position: center 20%;
+}
+
+.glide__image__5 {
+object-position: center 50%;
+}
