@@ -1,0 +1,7 @@
+.main__letter__body {
+    margin: 15px 0;
+    padding: 10px 0;
+
+    border-top: black solid;
+    border-bottom: black solid;
+}
