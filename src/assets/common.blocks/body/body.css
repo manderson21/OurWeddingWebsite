@@ -1,9 +1,9 @@
 .body {
     min-width: min-content;
     max-width: 1100px;
-    height: 100%;
-    margin: 20px auto 0 auto;
-    padding: 0 30px;
+    min-height: 100%;
+    margin: 20px auto 20px auto;
+    padding: 10px 30px 30px 30px;
 
     background-color: #fff;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
