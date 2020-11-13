@@ -28,17 +28,26 @@ module.exports = {
                     {
                         loader: MiniCssExtractPlugin.loader,
                         options: {
-                            publicPath: './dist/'
+                            // publicPath: '../'
                         }
                     },
                     'css-loader'
                 ]
             },
             {
-                test: /\.(woff|woff2|ttf|eot|svg|png|jpg|gif|ico)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                test: /\.(svg|png|jpg|gif|ico)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
                 loader: 'file-loader',
                 options: {
-                    outputPath: 'images',
+                    name: "images/[name].[ext]"
+                }
+            },
+            {
+                test: /\.(ttf|eot|woff|woff2|otf)$/,
+                loader: 'file-loader',
+                options: {
+                    name: "fonts/[name].[ext]",
+                    publicPath: '../'
+
                 }
             },
             {
