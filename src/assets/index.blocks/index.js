@@ -28,6 +28,11 @@ require('./main/letter/letter__heading.css')
 require('./main/letter/letter__body.css')
 require('./main/letter/letter__text.css')
 
+// Footer
+require('./footer/footer.css')
+require('./footer/footer__hashtag.css')
+
+
 // Images
 require('../../img/IMG-0001.jpg')
 require('../../img/IMG-0002.jpg')

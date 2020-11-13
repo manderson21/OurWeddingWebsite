@@ -1,0 +1,23 @@
+.hashtag__text {
+    display: flex;
+    flex-direction: row;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hashtag__text:before, .hashtag__text:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: black solid 1px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hashtag__text:before {
+    margin-right: 10px;
+}
+
+.hashtag__text:after {
+    margin-left: 10px;
+}
