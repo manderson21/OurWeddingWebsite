@@ -59,12 +59,6 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             hash: true,
-            template: "./src/ourStory.html",
-            chunks: ['common'],
-            filename: "ourStory.html"
-        }),
-        new HtmlWebpackPlugin({
-            hash: true,
             template: "./src/weddingParty.html",
             chunks: ['common'],
             filename: "weddingParty.html"
