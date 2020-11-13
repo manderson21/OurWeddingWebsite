@@ -1,0 +1,9 @@
+.main__header {
+    font-family: raleway, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+
+    /*border-bottom: black solid 1px;*/
+
+    margin: 10px 0 30px 0;
+}
