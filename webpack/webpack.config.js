@@ -61,7 +61,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             hash: true,
             template: "./src/weddingParty.html",
-            chunks: ['common'],
+            chunks: ['common', 'weddingParty'],
             filename: "weddingParty.html"
         }),
         new HtmlWebpackPlugin({
