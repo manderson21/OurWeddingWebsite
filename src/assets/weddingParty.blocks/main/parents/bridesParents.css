@@ -1,0 +1,12 @@
+.bridesParents {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media only screen and (min-width: 900px) {
+    .bridesParents {
+        justify-content: space-around;
+    }
+}

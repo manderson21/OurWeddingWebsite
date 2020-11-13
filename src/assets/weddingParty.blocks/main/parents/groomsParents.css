@@ -1,0 +1,18 @@
+.groomsParents {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.groomsParents__group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 900px){
+    .groomsParents__group {
+        justify-content: space-around;
+    }
+}

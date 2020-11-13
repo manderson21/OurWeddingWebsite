@@ -1,0 +1,21 @@
+.parents__img {
+    width: 150px;
+    height: 200px;
+
+    border: black solid 1px;
+}
+
+@media only screen and (min-width: 525px) {
+    .parents__img {
+        width: 201px;
+        height: 268px;
+    }
+}
+
+@media only screen and (min-width: 1030px) {
+    .parents__img {
+        width: 225px;
+        height: 300px;
+    }
+
+}
