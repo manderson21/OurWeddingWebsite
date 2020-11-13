@@ -1,0 +1,10 @@
+.countDown {
+    text-align: center;
+
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.countDown__Timer {
+    font-size: 2rem;
+}
