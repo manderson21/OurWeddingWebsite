@@ -3,7 +3,7 @@
     max-width: 1100px;
     min-height: 100%;
     margin: 20px auto 20px auto;
-    padding: 10px 30px 30px 30px;
+    padding: 10px 10px 10px 10px;
 
     overflow-x: hidden;
 
@@ -25,5 +25,7 @@
 }
 
 @media only screen and (min-width: 1100px) {
-
+    .body {
+        padding: 10px 30px 30px 30px;
+    }
 }

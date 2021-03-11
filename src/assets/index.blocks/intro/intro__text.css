@@ -16,10 +16,10 @@
 .intro__text__2 {
     font-family: brookeSmithScript, cursive;
 
-    font-size: 10vw;
+    font-size: 15vw;
     line-height: .8;
 
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 @media only screen and (min-width: 660px) {
@@ -46,6 +46,6 @@
     }
 
     .intro__text__2 {
-        font-size: 4rem;
+        font-size: 5rem;
     }
 }
