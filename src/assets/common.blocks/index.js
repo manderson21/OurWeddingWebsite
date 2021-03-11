@@ -1,9 +1,12 @@
+require('./header/countDown/timer/timer')
+
 require('./default.css')
 
 require('./body/body.css')
 
 require('./header/header.css')
 require('./header/heading/heading.css')
+require('./header/countDown/countDown.css')
 require('./header/nav/nav.css')
 require('./header/nav/nav__arrow.css')
 require('./header/nav/nav__text.css')

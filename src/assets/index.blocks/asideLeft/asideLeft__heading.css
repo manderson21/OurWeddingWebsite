@@ -1,6 +1,22 @@
 .asideLeft__heading {
     font-family: brookeSmithScript, cursive;
-
+    font-size: 2.625rem;
     text-align: center;
-    font-size: 3rem;
+}
+
+
+@media only screen and (min-width: 500px) {
+    .asideLeft__heading {
+        font-size: 8.4vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .asideLeft__heading {
+        font-size: 4.35vw;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .asideLeft__heading {
+        font-size: 3rem;
+    }
 }

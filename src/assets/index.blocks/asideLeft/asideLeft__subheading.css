@@ -1,3 +1,20 @@
 .asideLeft__subheading {
-    font-size: 2rem;
+    font-size: 1.25rem;
+}
+
+
+@media only screen and (min-width: 500px) {
+    .asideLeft__subheading {
+        font-size: 4vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .asideLeft__subheading {
+        font-size: 2.9vw;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .asideLeft__subheading {
+        font-size: 2rem;
+    }
 }

@@ -2,23 +2,22 @@
     position: relative;
 
     grid-column: span 12;
-    grid-row: 3 / end;
-    margin: 0 0 0 10px;
-    padding: 0 10px 0 10px;
+    grid-row: 3;
 
-}
 
-@media only screen and (min-width: 425px) {
-    .main {
-        padding: 0 50px 0 50px;
-    }
+    border-bottom: black solid 1px;
 }
 
 @media only screen and (min-width: 768px) {
     .main {
         grid-column: 4 / span 9;
+        grid-row: 3;
 
-        padding: 0 24px;
+        margin-left: 20px;
+        padding: 0 20px;
+
         border-left: black solid 1px;
+        border-bottom: none;
+
     }
 }

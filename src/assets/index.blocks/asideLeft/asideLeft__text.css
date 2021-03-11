@@ -1,7 +1,27 @@
-
-
 .asideLeft__text {
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1rem;
+
     line-height: 1.4;
+}
+
+@media only screen and (min-width: 500px) {
+    .asideLeft__text {
+        font-size: 3.3vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .asideLeft__text {
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 915px) {
+    .asideLeft__text {
+        font-size: 1.75vw;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .asideLeft__text {
+        font-size: 1.2rem;
+    }
 }

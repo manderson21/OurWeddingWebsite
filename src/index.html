@@ -2,31 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Our Wedding</title>
+  
   </head>
   <body class="body">
     <header class="header">
       
       <h2 class="heading header__heading">The Newlywed Post</h2>
       
+      <div id="timer" class="countDown"></div>
+      
       <nav class="nav">
         <p class="nav__text">CONWAY, ARKANSAS</p>
         <p class="nav__text">FRIDAY JULY 30, 2021</p>
         <div class="nav_dropdown">
-          <a class="nav_hover _center-container" href="index.html">
-            <p class="nav__text _center">MENU<i class="nav__arrow"></i></p>
+          <a href="javascript:void(0);" class="nav__flex nav__hover">
+            <p class="nav__flexItem nav__text">MENU<i class="nav__arrow"></i></p>
           </a>
           <div class="nav_dropdown-content">
+            <a class="nav_hover" href="./index.html">
+              <p class="nav__text">HOME</p>
+            </a>
             <a class="nav_hover" href="./weddingParty.html">
               <p class="nav__text">WEDDING PARTY</p>
             </a>
-            <a class="nav_hover" href="./registry.html">
-              <p class="nav__text">REGISTRY</p>
-            </a>
-            <a class="nav_hover" href="./rsvp.html">
-              <p class="nav__text">RSVP</p>
-            </a>
+<!--            <a class="nav_hover" href="./registry.html">-->
+<!--              <p class="nav__text">REGISTRY</p>-->
+<!--            </a>-->
+<!--            <a class="nav_hover" href="./rsvp.html">-->
+<!--              <p class="nav__text">RSVP</p>-->
+<!--            </a>-->
           </div>
         </div>
       </nav>
@@ -35,9 +41,9 @@
   
     <section class="intro">
       <h1 class="intro__text">
-        <span class="intro__text__1 ">Celebrating the Wedding of</span> <br>
+        <p class="intro__text__1 ">CELEBRATING THE WEDDING OF:</p>
         <span class="intro__text__2 ">Tiuna Katrice Nolen</span> <br class="intro__break">
-        <span class="intro__text__2">&</span> <br class="intro__break">
+        <span class="intro__text__2">+</span> <br class="intro__break">
         <span class="intro__text__2 ">Matthew Cole Anderson</span>
       </h1>
     </section>
@@ -78,11 +84,11 @@
       <div class="glide">
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
-            <li class="glide__slide"><img class="glide__image glide__image__1" src="img/IMG-0001.jpg" alt=""></li>
-            <li class="glide__slide"><img class="glide__image glide__image__2" src="img/IMG-0002.jpg" alt=""></li>
-            <li class="glide__slide"><img class="glide__image glide__image__3" src="img/IMG-0006.jpg" alt=""></li>
-            <li class="glide__slide"><img class="glide__image glide__image__4" src="img/IMG-0007.jpg" alt=""></li>
-            <li class="glide__slide"><img class="glide__image glide__image__5" src="img/IMG-0008.jpg" alt=""></li>
+            <li class="glide__slide"><img class="glide__image" src="img/IMG-0001.jpg" alt=""></li>
+            <li class="glide__slide"><img class="glide__image" src="img/IMG-0002.jpg" alt=""></li>
+            <li class="glide__slide"><img class="glide__image" src="img/IMG-0006.jpg" alt=""></li>
+            <li class="glide__slide"><img class="glide__image" src="img/IMG-0007.jpg" alt=""></li>
+            <li class="glide__slide"><img class="glide__image" src="img/IMG-0008.jpg" alt=""></li>
           </ul>
         </div>
         <div class="glide__arrows" data-glide-el="controls">
@@ -99,21 +105,23 @@
       </div>
       
       <article class="main__letter">
-        <h2 class="main__letter__heading">Dear Family + Friends</h2>
+        <h2 class="main__letter__heading">Family + Friends,</h2>
         <div class="main__letter__body">
-          <q class="main__letter__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Donec sagittis, elit in ultrices convallis, nulla mi vestibulum tellus, vestibulum condimentum erat risus nec erat.
-            Mauris non fermentum diam, a sollicitudin justo. Suspendisse non odio non nunc tempus iaculis auctor id dui.
-            Duis diam ipsum, bibendum at magna sit amet, mollis tristique sem.
-          </q>
-          <p class="main__letter__text main__letter__text__signature">— Tiuna + Matthew</p>
+          <p class="main__letter__text">
+            Welcome to our wedding website! <br>
+            Join us in the countdown until we say <br>
+            "I Do" <br>
+            We're so excited to celebrate our wedding with you. <br>
+            Find all the details you need to know about our big day here. <br>
+            The countdown until our forever is on!
+          </p>
+          <p class="main__letter__text main__letter__text__signature">Tiuna + Matthew</p>
         </div>
-        <b class="main__letter__text">#NowAndersonForever</b>
       </article>
     </section>
     
     <section class="footer">
+      <a href="./weddingParty.html">NEXT PAGE</a>
       <p class="hashtag__text">#NowAndersonForever</p>
     </section>
     

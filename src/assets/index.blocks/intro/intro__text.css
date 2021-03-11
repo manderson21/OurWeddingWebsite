@@ -1,22 +1,51 @@
 .intro__text {
     text-align: center;
-    font-size: 1.6rem;
     width: 100%;
+
+    line-height: 0;
 }
 
-@media only screen and (min-width: 319px) {
-    .intro__text {
+.intro__text__1 {
+    font-size: 1rem;
+    line-height: 1;
+    margin-bottom: 20px;
+
+    font-weight: normal;
+}
+
+.intro__text__2 {
+    font-family: brookeSmithScript, cursive;
+
+    font-size: 10vw;
+    line-height: .8;
+
+    font-weight: lighter;
+}
+
+@media only screen and (min-width: 660px) {
+    .intro__text__1 {
+        font-size: 2.2vw;
+    }
+
+    .intro__text__2 {
+        font-size: 5.82vw;
+        line-height: 1;
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
     .intro__text {
-        font-size: 3.3vw;
+        border-bottom: black solid 1px;
+        padding-bottom: 20px;
     }
 }
 
 @media only screen and (min-width: 1100px) {
-    .intro__text {
-        font-size: 2.3rem;
+    .intro__text__1 {
+        font-size: 1.5rem;
+    }
+
+    .intro__text__2 {
+        font-size: 4rem;
     }
 }

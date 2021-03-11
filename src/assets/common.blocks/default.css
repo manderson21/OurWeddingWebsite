@@ -31,13 +31,17 @@
 /*}*/
 
 * {
+    font-family: raleway;
     margin: 0;
     padding: 0;
 }
 
 html {
-    background-color: #e0e0e0;
+    /*background-color: #A0E4F7;*/
+    background: linear-gradient(0deg, rgba(160, 228, 247, 1) 50%, rgba(0, 212, 255, 1) 100%) no-repeat fixed;
+    /*background-color: #A1CCD5;*/
     height: 100%;
+    margin: 0;
 }
 
 a {
